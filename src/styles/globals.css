@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  /* Breakpoints */
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --breakpoint-xxl: 1400px;
+
+  /* Primary Colors */
+  --color-orange-primary-400: hsl(12, 88%, 59%);
+  --color-blue-primary-950: hsl(228, 39%, 23%);
+
+  /* Neutral Colors */
+  --color-gray-neutral-300: hsl(0, 0%, 60%);
+  --color-gray-neutral-950: hsl(233, 12%, 13%);
+  --color-orange-neutral-50: hsl(13, 100%, 96%);
+  --color-gray-neutral-50: hsl(0, 0%, 98%);
+}
+
+* {
+  user-select: none;
+}
